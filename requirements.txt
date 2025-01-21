@@ -1,0 +1,10 @@
+tensorflow-cpu
+numpy
+pandas
+opencv-python
+matplotlib
+tqdm
+scikit-learn
+pillow
+h5py
+notebook
