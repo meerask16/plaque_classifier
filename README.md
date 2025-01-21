@@ -14,3 +14,7 @@ Amyloid plaques are hallmark indicators of Alzheimer's disease. This project lev
 - Pre-trained deep learning models
 - Prediction scripts
 
+## Pre-requisites
+- Ensure CUDA and CUDAnn are installed properly
+- The model was developed and trained 
+- Prediction scripts
