@@ -1,6 +1,6 @@
 # Plaque Classifier
 
-A repository for building and training machine learning models to classify amyloid plaque images, aiding Alzheimer's research and diagnostics.
+A repository for building and training machine learning models to classify amyloid plaque images, aiding Alzheimer's research and diagnostics. This repository was created as a part of manuscript that is currently underreview. 
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -24,3 +24,4 @@ conda create -n "plaque_env" python=version_appropriate_for_tensorflow_and_gpu i
 conda activate plaque_env
 - Install packages from the file "requirements.txt" file:
 pip install -r requirements_scandx_concise.txt
+The demo should be expected to run for less than one minute and installation should not take more than one hour.
