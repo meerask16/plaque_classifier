@@ -29,7 +29,7 @@ To train the model, use the plaque_classifier_training.ipynb, which implements K
 5. **Evaluation**: Implements Stratified K-Fold cross-validation and logs accuracy and loss metrics. 
 
 ### Making Predictions
-A separate script for making predictions will load the trained model and classify new plaque images.
+A separate script (plaque_classifier_prediction.ipynb) for making predictions will load the trained model and classify new plaque images.
 
 ## Pre-requisites
 This software was developed in Python 3.7.3. The project was developed and is generally deployed using NVIDIA GeForce RTX 2080 Ti. TensorFlow was accelerated using this GPU via CUDA (10.1.243) and CUDANN (7.6.5).
