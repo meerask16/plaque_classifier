@@ -21,14 +21,12 @@ Amyloid plaques are hallmark indicators of Alzheimer's disease. This project lev
 
 ## Usage
 ### Training the Model
-The `train_kfold` function in `image_classification.py` implements K-Fold cross-validation to train the CNN model. The training pipeline consists of:
+To train the model, use the plaque_classifier_training.ipynb, which implements K-Fold cross-validation to train the CNN model. The training pipeline consists of:
 1. **Loading Images**: Converts images to grayscale and resizes them.
 2. **Preprocessing**: Normalizes pixel values and converts labels to categorical format.
 3. **Model Training**: Uses a CNN architecture with five convolutional layers and dropout regularization.
 4. **Data Augmentation**: Applies transformations to enhance training robustness.
-5. **Evaluation**: Implements Stratified K-Fold cross-validation and logs accuracy and loss metrics.
-
-To train the model, use the plaque_classifier_training.ipynb 
+5. **Evaluation**: Implements Stratified K-Fold cross-validation and logs accuracy and loss metrics. 
 
 ### Making Predictions
 A separate script for making predictions will load the trained model and classify new plaque images.
