@@ -28,10 +28,7 @@ The `train_kfold` function in `image_classification.py` implements K-Fold cross-
 4. **Data Augmentation**: Applies transformations to enhance training robustness.
 5. **Evaluation**: Implements Stratified K-Fold cross-validation and logs accuracy and loss metrics.
 
-To train the model, run:
-```sh
-python image_classification.py
-```
+To train the model, use the plaque_classifier_training.ipynb 
 
 ### Making Predictions
 A separate script for making predictions will load the trained model and classify new plaque images.
